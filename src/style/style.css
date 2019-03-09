@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-muted {
+    line-height: 40px;
+    color: #777;
+    font-size: 24px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; 
+    width: 250px;
+    margin-top: 20px;
+}
+
+.active > a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;  
+    width: 50px;
+    background-color: #eee;
+    border-radius: 4px;
+    color: #23527c;
+    font-weight: 600;
+}
+
+.active > a:hover {
+    color: #fff;
+    background-color: #337ab7;
+    border-radius: 4px;
+}
+
+.active {
+    list-style: none;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    text-align: center;   
+}
+
+.jumbotron {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 38px;
+    padding-bottom: 28px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #eee;
+    margin-top: 20px;
+}
+
+.lead {
+    margin-bottom: 40px;
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.btn {
+    font-size: 21px;
+    font-weight: 200;
+    margin: 0 0 10px;
+}
+
+.btn-lg {
+    padding: 14px 24px;
+    font-size: 21px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    margin: 0 auto;
+}
+
+.btn-lg:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.marketing {
+    margin: 30px 0;
+}
+
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+    margin: 0 0 20px 0;
+}
